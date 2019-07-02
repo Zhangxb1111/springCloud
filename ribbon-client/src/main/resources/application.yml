@@ -1,0 +1,11 @@
+stores:
+  ribbon:
+    listOfServers: baidu.com,google.com
+ribbon:
+  eureka:
+    enabled: false
+server:
+  port: 8769
+spring:
+  application:
+    name: testRibbon
